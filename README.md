@@ -1,6 +1,6 @@
 # Gitea-Pgsql-Docker-Compose
 
-A Docker Compose file for Gitea - Git with a cup of tea ([gitea.io](https://gitea.io)) with Postgresql Database.
+A Docker Compose file for Gitea with PostgreSQL.
 
 Data will be saved in separate docker volumes to enable easy upgrades!  
 Make sure you have the `/mnt/data/` folder.
@@ -12,7 +12,7 @@ Make sure you have the `/mnt/data/` folder.
 
 ## Getting Started
 
-1. Change Database Password _your_password_ to your own password.
+1. Change Database Password `your_password` to your own password.
 
 2. Start docker containers (you can also use the Portainer):
 
